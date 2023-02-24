@@ -116,13 +116,13 @@ The purpose of this lab is to both get you familiar with using these non-github 
     | T(n) = T(n/2) + n    | $\Theta( n                  )$ | runtime of the bad binary search          |
     | T(n) = T(n/2) + 1    | $\Theta( log n              )$ | runtime of the correct binary search      |
     | T(n) = T(n/3) + 1    | $\Theta( log n              )$ | runtime of "trinary search"               |
-    | T(n) = 2T(n/2) + 1   | $\Theta(                    )$ | runtime for [finding the median of an unsorted list](https://en.wikipedia.org/wiki/Quickselect) |
+    | T(n) = 2T(n/2) + 1   | $\Theta( n                  )$ | runtime for [finding the median of an unsorted list](https://en.wikipedia.org/wiki/Quickselect) |
     | T(n) = 2T(n/2) + n   | $\Theta( n log n            )$ | runtime of merge sort                     |
     | T(n) = 3T(n/3) + n   | $\Theta( n log n            )$ | runtime of a trinary merge sort           |
     | T(n) = T(n/2) + n^2  | $\Theta( n^2                )$ |                                           |
     | T(n) = 2T(n/2) + n^2 | $\Theta( n^2                )$ |                                           |
-    | T(n) = 3T(n/2) + n^2 | $\Theta( n^                 )$ |                                           |
-    | T(n) = 3T(n/2) + n   | $\Theta( n^(log3/log2)      )$ | runtime of [Karatsuba's integer multiplication algorithm](https://en.wikipedia.org/wiki/Karatsuba_algorithm); HINT: Case 1 |
+    | T(n) = 3T(n/2) + n^2 | $\Theta( n^2                )$ |                                           |
+    | T(n) = 3T(n/2) + n   | $\Theta( n**(log3/log2)     )$ | runtime of [Karatsuba's integer multiplication algorithm](https://en.wikipedia.org/wiki/Karatsuba_algorithm); HINT: Case 1 |
     | T(n) = 7T(n/2) + n^2 | $\Theta( n^3                )$ | runtime of [Strassen's matrix multiplication algorithm](https://en.wikipedia.org/wiki/Strassen_algorithm) |
 
 1. Upload your changes to github (and not gitlab) by using the following steps.
